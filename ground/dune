@@ -1,0 +1,6 @@
+(executable
+ (name ground)
+ (public_name ground)
+ (libraries core lwt lwt_ppx cohttp-lwt yojson mysql ppx_jane)
+ (preprocess (pps ppx_jane))
+ (modes native))

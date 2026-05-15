@@ -1,0 +1,17 @@
+(lang dune 3.12)
+(name kepler-ground)
+
+(package
+ (name kepler-ground)
+ (version 0.1.0)
+ (depends
+  ocaml
+  dune
+  core
+  lwt
+  lwt_ppx
+  cohttp-lwt
+  yojson
+  mysql
+  ppx_jane
+  base))

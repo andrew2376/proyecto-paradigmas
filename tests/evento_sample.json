@@ -1,0 +1,60 @@
+{
+  "id_evento": "ATLAS-EVENT-2024-001",
+  "transmision": {
+    "id_transmision": "HERMES-TRANS-2024-001",
+    "anomalia": {
+      "id_anomalia": "VOYAGER-ANOM-2024-001",
+      "mision": {
+        "id_mision": "VOYAGER_IX_2024",
+        "timestamp": "2024-05-14T21:37:00Z",
+        "sensores": [
+          {
+            "temperatura": 25.5,
+            "presion": 1.0,
+            "voltaje": 12.0,
+            "estado": "normal"
+          },
+          {
+            "temperatura": 30.0,
+            "presion": 0.8,
+            "voltaje": 11.5,
+            "estado": "normal"
+          }
+        ]
+      },
+      "coordenadas": {
+        "ascension_recta": "14h 39m",
+        "declinacion": "-60° 50'"
+      },
+      "espectro": [
+        {
+          "elemento": "hidrogeno",
+          "valor": 0.85
+        },
+        {
+          "elemento": "oxigeno",
+          "valor": 0.12
+        }
+      ],
+      "confianza": 0.92,
+      "cadena_reglas": [
+        "regla_geologica_1",
+        "regla_espectral_2",
+        "regla_anomalia_3"
+      ],
+      "timestamp_observacion": "2024-05-14T21:35:00Z"
+    },
+    "hash_sha256": "a1b2c3d4e5f6789012345678901234567890abcdef1234567890abcdef12345678",
+    "timestamp_recepcion": "2024-05-14T21:36:00Z",
+    "timestamp_retransmision": "2024-05-14T21:37:00Z"
+  },
+  "nivel_prioridad": 9,
+  "id_agencia": "NASA",
+  "misiones_activas": 140,
+  "trazabilidad": [
+    "Voyager_IX",
+    "HERMES",
+    "ATLAS"
+  ],
+  "timestamp_procesamiento": "2024-05-14T21:37:00Z"
+}
