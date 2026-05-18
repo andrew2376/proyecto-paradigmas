@@ -1,0 +1,46 @@
+name: hermes
+version: 0.1.0.0
+github: "githubuser/hermes"
+license: BSD-3-Clause
+author: "DAJUMA"
+maintainer: "example@example.com"
+copyright: "2026"
+
+extra-source-files:
+- README.md
+- CHANGELOG.md
+
+description: Proyecto Kepler - HERMES
+
+dependencies:
+- base >= 4.7 && < 5
+- aeson
+- bytestring
+- text
+- cryptonite
+- scotty
+
+library:
+  source-dirs: src
+
+executables:
+  hermes-exe:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - hermes
+
+tests:
+  hermes-test:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - hermes
