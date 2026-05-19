@@ -1,0 +1,11 @@
+{
+  "mission_id":"VOYAGER_IX",
+  "classification":"non_natural_structure",
+  "confidence":0.97,
+  "timestamp_utc":"2041-10-17T14:22:31Z",
+  "rule_chain": {
+    "step1":"symmetry_detected",
+    "step2":"metallic_signature_detected",
+    "step3":"natural_origin_rejected"
+  }
+}

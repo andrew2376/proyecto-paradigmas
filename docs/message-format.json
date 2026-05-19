@@ -1,0 +1,20 @@
+{
+    "mission_id": "VOYAGER_IX",
+    "anomaly_id": "KP442B-019",
+    "coordinates": {
+        "right_ascension": "19h44m12s",
+        "declination": "-12d44m10s"
+    },
+    "spectral_reading": {
+        "infrared": 0.91,
+        "metallic_signature": 0.87
+    },
+    "confidence": 0.97,
+    "timestamp_utc": "2041-10-17T14:22:31Z",
+    "rule_chain": [
+        "symmetry_detected",
+        "metallic_signature_detected",
+        "natural_origin_rejected"
+    ],
+    "classification": "NON_NATURAL_STRUCTURE"
+}
